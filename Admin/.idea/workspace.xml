@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/gui/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/MainMenuFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/src/main/java/com/patient/gui/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/src/main/java/com/patient/gui/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/src/main/java/com/patient/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/src/main/java/com/patient/gui/MainMenuFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +29,9 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -55,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.com.admin.Main.executor": "Run",
     "Application.com.patient.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -127,7 +118,7 @@
       <updated>1710079587105</updated>
       <workItem from="1710108151674" duration="5033000" />
       <workItem from="1710129134228" duration="1308000" />
-      <workItem from="1710133849737" duration="318000" />
+      <workItem from="1710133849737" duration="7325000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -137,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710130373131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: added logging">
+      <option name="closed" value="true" />
+      <created>1710134216110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710134216110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="feat: added logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added logging" />
   </component>
 </project>

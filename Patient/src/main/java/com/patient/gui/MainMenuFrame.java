@@ -7,11 +7,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 
 public class MainMenuFrame extends JFrame {
     private String username;
+    private DatabaseInstance databaseInstance;
 
-    public MainMenuFrame(String username, DatabaseInstance databaseInstance) {
+    public MainMenuFrame(String username) throws SQLException {
+        databaseInstance = DatabaseInstance.getInstance();
         this.username = username;
         setTitle("Welcome "+username);
         setSize(300, 200);
@@ -26,6 +29,12 @@ public class MainMenuFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("User: "+username+" is going to choose a doctor");
                 // Open ChooseDoctorFrame
+                try {
+                    dispose();
+                    new ChooseDoctorFrame(username);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
         panel.add(chooseDoctorButton);
@@ -67,7 +76,11 @@ public class MainMenuFrame extends JFrame {
                 System.out.println("User: "+username+" has logged out");
                 // Back to homepage
                 dispose();
-                new LoginFrame(databaseInstance);
+                try {
+                    new LoginFrame();
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
         panel.add(logoutButton);

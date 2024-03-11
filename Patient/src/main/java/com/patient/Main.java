@@ -13,7 +13,7 @@ public class Main{
             databaseInstance = DatabaseInstance.getInstance();
         System.out.println("Connected to the MySQL database.");
         //loading the GUI
-        new LoginFrame(databaseInstance);
+        new LoginFrame();
         System.out.println("GUI Initialized Successfully");
         } catch (SQLException e) {
             throw new RuntimeException(e);

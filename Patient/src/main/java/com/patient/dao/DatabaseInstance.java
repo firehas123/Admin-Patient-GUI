@@ -35,9 +35,7 @@ public class DatabaseInstance {
 
     private PreparedStatement generateQuery(String sql, String... params) throws SQLException {
         PreparedStatement preparedStatement = null;
-        System.out.println("sql "+sql);
-        System.out.println("params "+ Arrays.toString(params));
-        if(params.length>0){
+        if(params.length>0 || !sql.contains("?")){
             preparedStatement = conn.prepareStatement(sql);
             for(int i=0;i<params.length;i++){
                 preparedStatement.setString(i+1,params[i]);
@@ -68,6 +66,18 @@ public class DatabaseInstance {
 
     public boolean registerUser(String username, String password) throws SQLException{
             return executeUpdate(DatabaseConstants.registerQuery, username, password) > 0;
+    }
+
+    public ResultSet fetchAllDoctor() throws SQLException {
+        return executeQuery(DatabaseConstants.getAllDoctorQuery);
+    }
+
+    public int insertBooking(String doctor, String date, String username) throws SQLException {
+        return executeUpdate(DatabaseConstants.insertBookingQuery,doctor,date, username);
+    }
+
+    public boolean checkIfDoctorAvailable(String doctor, String date) throws SQLException {
+        return !(executeQuery(DatabaseConstants.checkDoctorAvailableQuery,doctor,date).next());
     }
 }
 

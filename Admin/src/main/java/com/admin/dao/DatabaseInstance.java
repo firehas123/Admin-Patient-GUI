@@ -35,8 +35,6 @@ public class DatabaseInstance {
 
     private PreparedStatement generateQuery(String sql, String... params) throws SQLException {
         PreparedStatement preparedStatement = null;
-        System.out.println("sql "+sql);
-        System.out.println("params "+ Arrays.toString(params));
         if(params.length>0){
             preparedStatement = conn.prepareStatement(sql);
             for(int i=0;i<params.length;i++){
@@ -68,6 +66,10 @@ public class DatabaseInstance {
 
     public boolean registerUser(String username, String password) throws SQLException{
             return executeUpdate(DatabaseConstants.registerQuery, username, password) > 0;
+    }
+
+    public boolean createDoctor(String name, String phoneNumber, String background) throws SQLException{
+        return executeUpdate(DatabaseConstants.insertDoctorQuery,name,phoneNumber,background) > 0;
     }
 }
 
