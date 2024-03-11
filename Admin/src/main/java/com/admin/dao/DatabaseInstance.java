@@ -35,8 +35,6 @@ public class DatabaseInstance {
 
     private PreparedStatement generateQuery(String sql, String... params) throws SQLException {
         PreparedStatement preparedStatement = null;
-        System.out.println("sql "+sql);
-        System.out.println("params "+ Arrays.toString(params));
         if(params.length>0){
             preparedStatement = conn.prepareStatement(sql);
             for(int i=0;i<params.length;i++){

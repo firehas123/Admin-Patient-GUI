@@ -26,3 +26,16 @@ CREATE TABLE doctor (
 
 
 --------------------
+
+
+-----Booking-----
+
+CREATE TABLE booking (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor VARCHAR(255) NOT NULL,
+    date DATE NOT NULL,
+    patient VARCHAR(255) NOT NULL
+);
+
+
+-----------------

@@ -12,7 +12,10 @@ public class LoginFrame extends JFrame {
     private JTextField usernameField;
     private JPasswordField passwordField;
 
-    public LoginFrame(DatabaseInstance databaseInstance) {
+    private DatabaseInstance databaseInstance;
+
+    public LoginFrame() throws SQLException {
+        databaseInstance = DatabaseInstance.getInstance();
         setTitle("Patient Login");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -46,7 +49,7 @@ public class LoginFrame extends JFrame {
                         if(databaseInstance.authenticateUser(username,password)) {
                             System.out.println("User: "+username+" has logged in");
                             dispose(); // Close login frame
-                            new MainMenuFrame(username,databaseInstance); // Open main menu frame
+                            new MainMenuFrame(username); // Open main menu frame
                         }
                     } else {
                         JOptionPane.showMessageDialog(LoginFrame.this, "Please register first", "Error", JOptionPane.ERROR_MESSAGE);
@@ -70,7 +73,7 @@ public class LoginFrame extends JFrame {
                         if(databaseInstance.registerUser(username,password)) {
                             System.out.println("User: "+username+" has registered");
                             dispose(); // Close login frame
-                            new MainMenuFrame(username,databaseInstance); // Open main menu frame
+                            new MainMenuFrame(username); // Open main menu frame
                         }
                     } else {
                         JOptionPane.showMessageDialog(LoginFrame.this, "Please login", "Error", JOptionPane.ERROR_MESSAGE);
