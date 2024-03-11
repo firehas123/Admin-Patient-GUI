@@ -12,7 +12,7 @@ public class MainMenuFrame extends JFrame {
 
     public MainMenuFrame(String username, DatabaseInstance databaseInstance) {
         this.username = username;
-        setTitle("Main Menu");
+        setTitle("Welcome "+username);
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null); // Center the frame on the screen
@@ -23,6 +23,7 @@ public class MainMenuFrame extends JFrame {
         chooseDoctorButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.out.println("User: "+username+" is going to choose a doctor");
                 // Open ChooseDoctorFrame
             }
         });
@@ -32,6 +33,7 @@ public class MainMenuFrame extends JFrame {
         changeDoctorButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.out.println("User: "+username+" is going to change a doctor");
                 // Open ChangeDoctorFrame
             }
         });
@@ -41,6 +43,7 @@ public class MainMenuFrame extends JFrame {
         viewBookingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.out.println("User: "+username+" has viewed their bookings");
                 // Open ViewBookingsFrame
             }
         });
@@ -50,6 +53,7 @@ public class MainMenuFrame extends JFrame {
         rescheduleBookingButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.out.println("User: "+username+" has rescheduled their booking");
                 // Open RescheduleBookingFrame
             }
         });
@@ -59,9 +63,10 @@ public class MainMenuFrame extends JFrame {
         logoutButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.out.println("User: "+username+" has logged out");
                 // Back to homepage
                 dispose();
-                 new LoginFrame(databaseInstance);
+                new LoginFrame(databaseInstance);
             }
         });
         panel.add(logoutButton);
@@ -70,3 +75,4 @@ public class MainMenuFrame extends JFrame {
         setVisible(true);
     }
 }
+

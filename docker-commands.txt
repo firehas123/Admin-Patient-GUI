@@ -1,0 +1,7 @@
+DB
+
+docker run --name mysql-container -e MYSQL_ROOT_PASSWORD=password  -p 3306:3306 mysql:latest
+
+GUI
+
+docker run --name phpmyadmin-container -d --link 1b5f6ba501d6b1cb20319dff5e3d161bf7eeab6406c3265000fe336b9ef12c8c:db -p 8080:80 phpmyadmin/phpmyadmin
