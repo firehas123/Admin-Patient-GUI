@@ -44,6 +44,7 @@ public class LoginFrame extends JFrame {
                 try {
                     if (databaseInstance.checkIfExists(username)) {
                         if(databaseInstance.authenticateUser(username,password)) {
+                            System.out.println("User: "+username+" has logged in");
                             dispose(); // Close login frame
                             new MainMenuFrame(username,databaseInstance); // Open main menu frame
                         }
@@ -67,6 +68,7 @@ public class LoginFrame extends JFrame {
                 try {
                     if (!databaseInstance.checkIfExists(username)) {
                         if(databaseInstance.registerUser(username,password)) {
+                            System.out.println("User: "+username+" has registered");
                             dispose(); // Close login frame
                             new MainMenuFrame(username,databaseInstance); // Open main menu frame
                         }
