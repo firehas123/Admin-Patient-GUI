@@ -69,6 +69,10 @@ public class DatabaseInstance {
     public boolean registerUser(String username, String password) throws SQLException{
             return executeUpdate(DatabaseConstants.registerQuery, username, password) > 0;
     }
+
+    public boolean createDoctor(String name, String phoneNumber, String background) throws SQLException{
+        return executeUpdate(DatabaseConstants.insertDoctorQuery,name,phoneNumber,background) > 0;
+    }
 }
 
 /*

@@ -5,18 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging for both Admin and">
-      <change beforePath="$PROJECT_DIR$/../Admin/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Admin/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/AddDoctorFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Admin/Patient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/LoginFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/MainMenuFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/dao/DatabaseConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/dao/DatabaseInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/LoginFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/LoginFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/LoginFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/MainMenuFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/MainMenuFrame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/MainMenuFrame$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/MainMenuFrame$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/target/classes/com/patient/gui/MainMenuFrame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patient/gui/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patient/gui/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patient/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patient/gui/MainMenuFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../db.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710079587105</updated>
       <workItem from="1710108151674" duration="6372000" />
-      <workItem from="1710133832129" duration="290000" />
+      <workItem from="1710133832129" duration="2421000" />
     </task>
     <servers />
   </component>
