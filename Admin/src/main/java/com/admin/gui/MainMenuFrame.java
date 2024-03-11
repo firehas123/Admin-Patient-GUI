@@ -70,4 +70,3 @@ public class MainMenuFrame extends JFrame {
         setVisible(true);
     }
 }
-
