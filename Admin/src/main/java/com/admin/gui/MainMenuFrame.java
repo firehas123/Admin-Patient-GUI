@@ -70,12 +70,35 @@ public class MainMenuFrame extends JFrame {
         });
         panel.add(changeDoctorButton);
 
+
+        JButton arrangeBookingsButton = new JButton("Arrange Booking");
+        arrangeBookingsButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Admin: "+username+" is going to arrange booking");
+                // Open ViewBookingsFrame
+                dispose();
+                try {
+                    new BookingFrame(username);
+                }catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
+            }
+        });
+        panel.add(arrangeBookingsButton);
+
         JButton viewBookingsButton = new JButton("View Bookings");
         viewBookingsButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Admin: "+username+" has viewed their bookings");
                 // Open ViewBookingsFrame
+                dispose();
+                try {
+                    new ViewBookingsFrame(username);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
         panel.add(viewBookingsButton);

@@ -9,5 +9,8 @@ public interface DatabaseConstants {
     public final String insertBookingQuery = "INSERT INTO booking (doctor, date, patient) VALUES (?, ?, ?)";
     public final String checkDoctorAvailableQuery = "select * from booking where doctor = ? and date = ?";
     String updatePatientDoctorQuery = "UPDATE booking SET doctor = ? WHERE patient = ? AND doctor = ? AND date = ?";
-
+    public final String getAllPatientQuery = "SELECT username FROM users where is_admin = 0";
+    public final String fetchBookingByDoctor = "SELECT * FROM booking WHERE doctor = ?";
+    public final String fetchBookingByPatient = "SELECT * FROM booking WHERE patient = ?";
+    public final String fetchBookingByMonthYear = "SELECT * FROM booking WHERE YEAR(date) = ? AND MONTH(date) = ?;";
 }

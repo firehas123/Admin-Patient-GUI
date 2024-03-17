@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/ChangeDoctorFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/NewPatientFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/BookingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/BookingsListFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/DoctorBookingsFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/MonthYearBookingsFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/PatientBookingsFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/ViewBookingsFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/gui/AddDoctorFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/AddDoctorFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/MainMenuFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient/src/main/java/com/patient/gui/DateSelectionFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/src/main/java/com/patient/gui/DateSelectionFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
       <workItem from="1710129134228" duration="1308000" />
       <workItem from="1710133849737" duration="8949000" />
       <workItem from="1710621963394" duration="1324000" />
-      <workItem from="1710663205691" duration="6948000" />
+      <workItem from="1710663205691" duration="9502000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />

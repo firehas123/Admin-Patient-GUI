@@ -36,7 +36,7 @@ public class DateSelectionFrame extends JFrame {
                 String selectedDate = dateField.getText();
                 if (!selectedDate.isEmpty()) {
                     // Perform booking
-                    // Date entry -> YY/MM/DD
+                    // Date entry -> YYYY/MM/DD
                     try {
                         if (bookAppointment(selectedDoctor, selectedDate, username)) {
                             JOptionPane.showMessageDialog(DateSelectionFrame.this, "Booking confirmed.");

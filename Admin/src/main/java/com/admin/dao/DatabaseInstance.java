@@ -88,6 +88,21 @@ public class DatabaseInstance {
         return (executeUpdate(DatabaseConstants.updatePatientDoctorQuery, newDoctor, patientName, currentDoctor, date)) > 0;
     }
 
+    public ResultSet fetchAllPatients() throws SQLException {
+        return executeQuery(DatabaseConstants.getAllPatientQuery);
+    }
+
+    public ResultSet fetchBookingsByDoctor(String parameter1) throws SQLException {
+        return executeQuery(DatabaseConstants.fetchBookingByDoctor,parameter1);
+    }
+
+    public ResultSet fetchBookingsByPatient(String parameter1) throws SQLException{
+        return executeQuery(DatabaseConstants.fetchBookingByPatient,parameter1);
+    }
+
+    public ResultSet fetchBookingsByMonthYear(String parameter1, String parameter2) throws SQLException {
+        return executeQuery(DatabaseConstants.fetchBookingByMonthYear,parameter1, parameter2);
+    }
 }
 
 /*
