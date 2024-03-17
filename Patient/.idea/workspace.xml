@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging for both Admin and">
-      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/BookingFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/BookingsListFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/DoctorBookingsFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/MonthYearBookingsFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/PatientBookingsFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/ViewBookingsFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Admin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/RescheduleBookingFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/gui/MainMenuFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/patient/gui/DateSelectionFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/patient/gui/DateSelectionFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +121,7 @@
       <updated>1710079587105</updated>
       <workItem from="1710108151674" duration="6372000" />
       <workItem from="1710133832129" duration="6340000" />
-      <workItem from="1710663205706" duration="7348000" />
+      <workItem from="1710663205706" duration="8490000" />
     </task>
     <servers />
   </component>

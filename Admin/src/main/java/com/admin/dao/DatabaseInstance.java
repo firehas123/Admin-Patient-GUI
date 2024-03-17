@@ -103,15 +103,13 @@ public class DatabaseInstance {
     public ResultSet fetchBookingsByMonthYear(String parameter1, String parameter2) throws SQLException {
         return executeQuery(DatabaseConstants.fetchBookingByMonthYear,parameter1, parameter2);
     }
-}
 
-/*
-// Close the connection
-                if (databaseInstance.conn != null) {
-                    try {
-                        databaseInstance.conn.close();
-                    } catch (SQLException e) {
-                        e.printStackTrace();
-                    }
-                }
- */
+    public boolean updateBooking(String newDate, String patientName, String doctorName, String oldDate) throws SQLException{
+        return executeUpdate(DatabaseConstants.updateBooking,newDate, patientName, doctorName, oldDate) > 0;
+    }
+
+    public boolean removeBooking(String patientName, String doctorName, String date) throws SQLException{
+        return executeUpdate(DatabaseConstants.removeBooking, patientName, doctorName, date) > 0;
+    }
+
+}

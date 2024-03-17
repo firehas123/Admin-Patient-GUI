@@ -109,6 +109,12 @@ public class MainMenuFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Admin: "+username+" has rescheduled their booking");
                 // Open RescheduleBookingFrame
+                dispose();
+                try {
+                    new RescheduleBookingFrame(username);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
         panel.add(rescheduleBookingButton);
