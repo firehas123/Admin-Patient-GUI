@@ -1,0 +1,8 @@
+CREATE TABLE doctors (
+    Doctorid INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    DoctorName VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    phone_number VARCHAR(20),
+    email VARCHAR(255) UNIQUE
+);
+

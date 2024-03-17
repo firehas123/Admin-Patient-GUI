@@ -1,0 +1,22 @@
+Test Specification
+This document contains tests for committed code.
+
+MySQL.java
+# verification of credentials provided by a seperate class if needed).
+# login with incorrect details should clear the password field and prompt user to try again, successful login should move user to the next stage in verification.
+# A password reset function should be accessable here as well.
+
+method: boolean verifyCredentials (String ID, String Password)
+JUnit Tests:
+provides the verifyCredentials function with a set of strings. tests include:
+correct credentials
+invalid credentials
+credentials with no username
+credentials with no password
+credentials with ID instead of username
+credentials with email address instead of username
+Manual Tests:
+Reset password
+
+TODO: JUnit tests for
+PatientInfoPanel.java
