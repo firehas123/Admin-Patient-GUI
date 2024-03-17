@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/ChangeDoctorFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/NewPatientFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/gui/AddDoctorFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/AddDoctorFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/gui/MainMenuFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/gui/MainMenuFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources/234e61d0-daa4-416c-87b1-a18bf9f8866a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +35,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,7 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "settings.space",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -67,6 +76,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.admin.gui" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.com.admin.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -118,7 +132,9 @@
       <updated>1710079587105</updated>
       <workItem from="1710108151674" duration="5033000" />
       <workItem from="1710129134228" duration="1308000" />
-      <workItem from="1710133849737" duration="7325000" />
+      <workItem from="1710133849737" duration="8949000" />
+      <workItem from="1710621963394" duration="1324000" />
+      <workItem from="1710663205691" duration="6948000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -157,5 +173,9 @@
     <MESSAGE value="." />
     <MESSAGE value="feat: added logging" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: added logging" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

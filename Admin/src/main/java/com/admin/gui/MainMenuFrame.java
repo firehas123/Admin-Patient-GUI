@@ -29,10 +29,30 @@ public class MainMenuFrame extends JFrame {
                 System.out.println("Admin: "+username+" is going to choose a doctor");
                 // Open ChooseDoctorFrame
                 dispose();
-                new AddDoctorFrame(databaseInstance, username);
+                try {
+                    new AddDoctorFrame(username);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
         panel.add(chooseDoctorButton);
+
+        JButton insertNewPatientButton = new JButton("Insert New Patient Booking");
+        insertNewPatientButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("Admin: "+username+" is going to choose a doctor and register a new patient");
+                // Open NewPatientFrame
+                dispose();
+                try {
+                    new NewPatientFrame(username);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
+            }
+        });
+        panel.add(insertNewPatientButton);
 
         JButton changeDoctorButton = new JButton("Change Doctor");
         changeDoctorButton.addActionListener(new ActionListener() {
@@ -40,6 +60,12 @@ public class MainMenuFrame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Admin: "+username+" is going to change a doctor");
                 // Open ChangeDoctorFrame
+                dispose();
+                try {
+                    new ChangeDoctorFrame(username);
+                } catch (SQLException ex) {
+                    throw new RuntimeException(ex);
+                }
             }
         });
         panel.add(changeDoctorButton);

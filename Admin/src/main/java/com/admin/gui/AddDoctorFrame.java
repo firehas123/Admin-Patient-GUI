@@ -12,12 +12,8 @@ import java.sql.SQLException;
 public class AddDoctorFrame extends JFrame {
     private DatabaseInstance databaseInstance;
 
-    public AddDoctorFrame() throws SQLException {
-        databaseInstance = DatabaseInstance.getInstance();
-    }
-
-    public AddDoctorFrame(DatabaseInstance databaseInstance, String username) {
-        this.databaseInstance = databaseInstance;
+    public AddDoctorFrame(String username) throws SQLException {
+        this.databaseInstance = DatabaseInstance.getInstance();
         setTitle("Add Doctor");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
