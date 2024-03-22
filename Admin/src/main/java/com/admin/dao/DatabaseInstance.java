@@ -112,4 +112,9 @@ public class DatabaseInstance {
         return executeUpdate(DatabaseConstants.removeBooking, patientName, doctorName, date) > 0;
     }
 
+    //for test cases use only
+    public void cleanUpTestData(String query) throws SQLException {
+        executeUpdate(query);
+    }
+
 }

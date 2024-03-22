@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging">
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/src/DatabaseConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/src/DatabaseInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/src/ViewBookingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DatabaseInstanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/admin/dao/DatabaseInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/Software Dev A2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/Software Dev A2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patient/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,36 +53,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.com.admin.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.patient.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;working-branch&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrhas/Desktop/Fiver/task 3/Admin&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.com.admin.Main.executor": "Run",
+    "Application.com.patient.Main.executor": "Run",
+    "JUnit.DatabaseInstanceTest.changePatientDoctor.executor": "Debug",
+    "JUnit.DatabaseInstanceTest.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "working-branch",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mrhas/Desktop/Fiver/task 3/Admin",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.admin.gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.admin.Main">
+  <component name="RunManager" selected="JUnit.DatabaseInstanceTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Patient" />
@@ -104,8 +111,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseInstanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Patient" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseInstanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DatabaseInstanceTest" />
         <item itemvalue="Application.com.admin.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -132,6 +149,9 @@
       <workItem from="1710621963394" duration="1324000" />
       <workItem from="1710663205691" duration="13406000" />
       <workItem from="1710703866359" duration="3438000" />
+      <workItem from="1710878670834" duration="480000" />
+      <workItem from="1711134090804" duration="722000" />
+      <workItem from="1711134841371" duration="4782000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -170,6 +190,17 @@
     <MESSAGE value="." />
     <MESSAGE value="feat: added logging" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: added logging" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/DatabaseInstanceTest.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

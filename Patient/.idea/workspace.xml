@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c5f2ef-c46c-42fd-8026-33c7ec42a162" name="Changes" comment="feat: added logging for both Admin and">
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/lib/mysql-connector-java-8.0.28.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/src/DatabaseConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/src/DatabaseInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/src/ViewBookingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Admin/src/test/java/DatabaseInstanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Admin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin/src/main/java/com/admin/dao/DatabaseInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/Software Dev A2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main/Software Dev A2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,29 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.com.patient.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "working-branch",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mrhas/Desktop/Fiver/task 3/Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.com.patient.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;working-branch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mrhas/Desktop/Fiver/task 3/Assignment-1-Doctor-GP-portal-main/Assignment-1-Doctor-GP-portal-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.patient.gui" />
@@ -125,6 +130,9 @@
       <workItem from="1710133832129" duration="6340000" />
       <workItem from="1710663205706" duration="9119000" />
       <workItem from="1710696130296" duration="3214000" />
+      <workItem from="1710878684730" duration="466000" />
+      <workItem from="1711134080919" duration="731000" />
+      <workItem from="1711134849445" duration="3977000" />
     </task>
     <servers />
   </component>
