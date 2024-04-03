@@ -87,6 +87,7 @@ public class BookingFrame extends JFrame {
         ResultSet resultSet = databaseInstance.fetchAllPatients();
         while (resultSet.next()) {
             String patientName = resultSet.getString("username");
+            System.out.println(patientName);
             patientComboBox.addItem(patientName);
         }
     }

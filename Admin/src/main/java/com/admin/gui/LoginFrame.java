@@ -50,9 +50,11 @@ public class LoginFrame extends JFrame {
                             System.out.println("Admin: "+username+" has logged in");
                             dispose(); // Close login frame
                             new MainMenuFrame(username); // Open main menu frame
+                        }else{
+                            JOptionPane.showMessageDialog(LoginFrame.this, "Incorrect Credentials", "Error", JOptionPane.ERROR_MESSAGE);
                         }
                     } else {
-                        JOptionPane.showMessageDialog(LoginFrame.this, "Please register first", "Error", JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(LoginFrame.this, "Incorrect Credentials or User does not exist", "Error", JOptionPane.ERROR_MESSAGE);
                     }
                 } catch (SQLException ex) {
                     throw new RuntimeException(ex);

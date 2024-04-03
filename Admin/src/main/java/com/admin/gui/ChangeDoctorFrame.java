@@ -56,7 +56,6 @@ public class ChangeDoctorFrame extends JFrame {
                     try {
                         if (changePatientDoctor(selectedPatient, selectedCurrentDoctor, selectedNewDoctor, selectedDate)) {
                             JOptionPane.showMessageDialog(ChangeDoctorFrame.this, "Doctor change successful.");
-                            dispose();
                         } else {
                             JOptionPane.showMessageDialog(ChangeDoctorFrame.this, "Failed to change doctor.");
                         }

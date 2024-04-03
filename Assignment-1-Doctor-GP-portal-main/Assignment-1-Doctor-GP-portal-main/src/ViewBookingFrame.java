@@ -76,12 +76,16 @@ public class ViewBookingFrame extends JFrame {
         model.addColumn("Doctor");
         model.addColumn("Date");
         model.addColumn("Patient");
+        model.addColumn("Phone Num");
+        model.addColumn("Summary");
 
         while (resultSet.next()) {
             String doctor = resultSet.getString("doctor");
             String date = resultSet.getString("date");
             String patient = resultSet.getString("patient");
-            model.addRow(new Object[]{doctor, date, patient});
+            String phoneNum = resultSet.getString("phone_num");
+            String summary = resultSet.getString("summary");
+            model.addRow(new Object[]{doctor, date, patient,phoneNum,summary});
         }
 
         table.setModel(model);

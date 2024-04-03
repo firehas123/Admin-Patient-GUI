@@ -41,3 +41,14 @@ CREATE TABLE booking (
 
 
 -----------------
+
+------Booking details-----------------
+
+CREATE TABLE booking_details (
+                                 booking_id INTEGER PRIMARY KEY,
+                                 phone_num VARCHAR(20),
+                                 summary VARCHAR(255),
+                                 FOREIGN KEY (booking_id) REFERENCES booking(id)
+);
+
+-----------------------------------------
